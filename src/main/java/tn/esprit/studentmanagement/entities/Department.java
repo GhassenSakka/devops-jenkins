@@ -7,11 +7,14 @@ import java.util.List;
 
 @Entity
 @Getter
+    
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
 public class Department {
+
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idDepartment;
